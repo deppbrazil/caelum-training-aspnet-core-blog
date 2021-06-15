@@ -1,0 +1,17 @@
+﻿:root {
+    --primary: #002db5;
+}
+
+.wrapper-disclaimer {
+    width: 100%;
+    height: auto;
+    margin: 0 0 50px;
+}
+
+.disclaimer {
+    font-size: .8rem;
+    padding: .15rem .45rem;
+    border-radius: 100px;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}

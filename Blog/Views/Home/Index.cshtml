@@ -3,6 +3,17 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">List</h1> 
+    
+    @foreach (var post in ViewBag.Posts)
+	{
+		<div class="text-left">
+            <h3>@post.Title</h3>
+            <p>@post.Resume</p>
+            <div class="wrapper-disclaimer">
+                <span class="disclaimer">@post.Category</span>
+            </div>            
+        </div>
+	}
 </div>
+
