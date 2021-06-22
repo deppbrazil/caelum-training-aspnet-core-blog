@@ -9,7 +9,7 @@ using Blog.Models;
 
 namespace Blog.Controllers
 {
-    public class HomeController : Controller
+    public class PostController : Controller
     {
         public IActionResult Index()
         {
