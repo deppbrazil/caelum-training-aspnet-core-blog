@@ -48,9 +48,9 @@ namespace Blog.Controllers
 
             Post[] posts = new Post[] { postOne, postTwo };
             
-            ViewBag.Posts = posts;
+            //ViewBag.Posts = posts;
             
-            return View();
+            return View(posts);
         }        
     }
 }

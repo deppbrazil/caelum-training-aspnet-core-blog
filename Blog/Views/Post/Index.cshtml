@@ -1,7 +1,9 @@
-﻿<div class="text-center">
+﻿@model Post[]
+
+<div class="text-center">
     <h1 class="display-4">List</h1>
 
-    @foreach (var post in ViewBag.Posts)
+    @foreach (var post in Model)
     {
         <div class="text-left">
             <h3>@post.Title</h3>
