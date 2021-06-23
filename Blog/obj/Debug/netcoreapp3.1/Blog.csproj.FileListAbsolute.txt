@@ -8,6 +8,7 @@ C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\n
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\netcoreapp3.1\Blog.pdb
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\netcoreapp3.1\Blog.Views.dll
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\netcoreapp3.1\Blog.Views.pdb
+C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.csproj.AssemblyReference.cache
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.AssemblyInfoInputs.cache
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.AssemblyInfo.cs
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.csproj.CoreCompileInputs.cache
@@ -22,6 +23,7 @@ C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\n
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.RazorCoreGenerate.cache
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Razor\Views\Post\Form.cshtml.g.cs
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Razor\Views\Post\Index.cshtml.g.cs
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -35,4 +37,3 @@ C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\n
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.pdb
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.genruntimeconfig.cache
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.csproj.CopyComplete
-C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.csproj.AssemblyReference.cache

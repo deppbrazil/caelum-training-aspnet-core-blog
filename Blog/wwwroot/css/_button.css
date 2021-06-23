@@ -1,0 +1,20 @@
+﻿.button--medium {
+    width: 100%;
+    height: auto;
+    padding: .75em 1.75em;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    outline: 0;
+    color: var(--light);
+    background: var(--primary);
+    transition: .2s background ease-in-out;
+}
+
+.button--medium:hover {
+    background: var(--secondary);
+}
+
+.button--medium:focus {
+    outline: 0;
+    border: 2px solid var(--secondary);
+}

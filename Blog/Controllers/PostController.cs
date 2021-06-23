@@ -11,10 +11,14 @@ namespace Blog.Controllers
 {
     public class PostController : Controller
     {
-        public IActionResult Index()
+        private IList<Post> postList;
+
+        public PostController()
         {
 
-            Post postOne = new Post()
+            
+
+            var post1 = new Post()
             {
                 Title = "Pirates of the Caribbean",
                 Resume = "William Turner, a resourceful young blacksmith, " +
@@ -26,7 +30,7 @@ namespace Blog.Controllers
                 Category = "Action"
             };
 
-            Post postTwo = new Post()
+            var post2 = new Post()
             {
                 Title = "Avengers",
                 Resume = "S.H.I.E.L.D. has located the mysterious Tesseract " +
@@ -46,11 +50,29 @@ namespace Blog.Controllers
                 Category = "Action"
             };
 
-            Post[] posts = new Post[] { postOne, postTwo };
-            
-            //ViewBag.Posts = posts;
-            
-            return View(posts);
+            postList = new List<Post>();
+            postList.Add(post1);
+            postList.Add(post2);
+        }
+
+        [HttpGet]
+        public IActionResult Index()
+        {
+            return View(postList);
         }        
+
+        [HttpGet]
+        public IActionResult Form()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult AddItemList(Post post)
+        {
+            postList.Add(post);
+            return View("Index", postList);
+        }
     }
+
 }
