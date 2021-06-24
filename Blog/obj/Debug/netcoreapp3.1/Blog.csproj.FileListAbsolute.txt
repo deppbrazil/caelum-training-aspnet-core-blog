@@ -8,7 +8,12 @@ C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\n
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\netcoreapp3.1\Blog.pdb
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\netcoreapp3.1\Blog.Views.dll
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\netcoreapp3.1\Blog.Views.pdb
-C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.csproj.AssemblyReference.cache
+C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.AssemblyInfoInputs.cache
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.AssemblyInfo.cs
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.csproj.CoreCompileInputs.cache
@@ -33,7 +38,8 @@ C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\n
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.RazorTargetAssemblyInfo.cache
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.RazorTargetAssemblyInfo.cs
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.Views.pdb
+C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.csproj.CopyComplete
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.dll
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.pdb
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.genruntimeconfig.cache
-C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.csproj.CopyComplete
+C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\obj\Debug\netcoreapp3.1\Blog.csproj.AssemblyReference.cache

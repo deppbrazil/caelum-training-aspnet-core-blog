@@ -7,6 +7,7 @@ namespace Blog.Models
 {
     public class Post
     {
+        public int Id { get; internal set; }
         public string Title { get; set; }
         public string Resume { get; set; }
         public string Category { get; set; }
