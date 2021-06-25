@@ -1,8 +1,15 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Início";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome!</h1>
-</div>
+<section class="img-fluid">
+    <h1 class="display-3">Bem vindo(a)!</h1>    
+    
+    <div class="wrapper-button">
+        <h3 class="display-6">Acesse a lista de filmes:</h3>
+        <a class="button--medium flex-column" type="submit" asp-area="" asp-controller="Post" asp-action="index">
+            Cliquei aqui!
+        </a>
+    </div>
+</section>
 

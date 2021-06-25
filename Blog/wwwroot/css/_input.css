@@ -13,4 +13,5 @@
 
 .label-block {
     margin: 0;
+    color: var(--quaternary);
 }
