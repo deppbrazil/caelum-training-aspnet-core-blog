@@ -55,7 +55,12 @@ namespace Blog.DAO
                 SqlCommand command = conection.CreateCommand();
 
                 command.CommandText = "insert into Posts (Title, Resume, Category) " +
-                    "values ('" + post.Title + "', '" + post.Resume + "', '" + post.Category + "')";
+                    "values (@title, @resume, @category)";
+
+                // Send value for parameters 
+                command.Parameters.Add(new SqlParameter("title", post.Title));
+                command.Parameters.Add(new SqlParameter("resume", post.Resume));
+                command.Parameters.Add(new SqlParameter("category", post.Category));
 
                 // Exec command
                 command.ExecuteNonQuery();
