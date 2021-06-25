@@ -3,7 +3,7 @@
     height: 40px;
     outline: 0;
     border-radius: 5px;
-    border: 2px solid var(--tertiary);
+    border: 2px solid var(--dark);
     transition: .2s border ease-in-out;
 }
 
@@ -13,5 +13,4 @@
 
 .label-block {
     margin: 0;
-    color: var(--quaternary);
 }

@@ -38,6 +38,34 @@ namespace Blog.Controllers
             dao.AddPost(post);
             return RedirectToAction("Index");
         }
-    }
 
+        public IActionResult CategoryFilter([Bind(Prefix = "id")] string category)
+        {
+            PostDAO dao = new PostDAO();
+            var PostFilteringList = dao.FilterForCategory(category);
+            return View("Index", PostFilteringList);
+        }
+
+        public IActionResult DeletePost(int id)
+        {
+            PostDAO dao = new PostDAO();
+            dao.DeletePost(id);
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult ToView(int id)
+        {
+            PostDAO dao = new PostDAO();
+            var post = dao.FindForId(id);
+            return View(post);
+        }
+
+        [HttpPost]
+        public IActionResult EditPost(Post post)
+        {
+            PostDAO dao = new PostDAO();
+            dao.UpdatePost(post);
+            return RedirectToAction("Index");
+        }
+    }
 }

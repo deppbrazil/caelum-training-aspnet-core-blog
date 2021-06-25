@@ -14,56 +14,58 @@ namespace Blog.DAO
         public IList<Post> List()
 
         {
-            IList<Post> postList = new List<Post>();
-
-            // Create obj as SqlConnection
-            using (SqlConnection connection = ConnectionFactory.CreateConnectionOpen())
+            using (BlogContext context = new BlogContext())
             {
-                // Not necessary open connection
-
-                // Create database command
-                SqlCommand command = connection.CreateCommand();
-                command.CommandText = "select * from Posts";
-
-                // Exec command
-                SqlDataReader reader = command.ExecuteReader();
-
-                // Iteraction line of line as database
-                while (reader.Read())
-                {
-                    Post post = new Post()
-                    {
-                        // Convert because dictionary value is not espected
-                        Id = Convert.ToInt32(reader["Id"]),
-                        Title = Convert.ToString(reader["Title"]),
-                        Resume = Convert.ToString(reader["Resume"]),
-                        Category = Convert.ToString(reader["Category"]),
-                    };
-
-                    postList.Add(post);
-                }
-
-                return postList;
+                var list = context.Posts.ToList();                
+                return list;
             }
         }
 
         public void AddPost(Post post)
         {
-            using (SqlConnection conection = ConnectionFactory.CreateConnectionOpen())
+            using (BlogContext context = new BlogContext())
             {
-                // Create command for database
-                SqlCommand command = conection.CreateCommand();
+                context.Posts.Add(post);
+                context.SaveChanges();
+            }
+        }
 
-                command.CommandText = "insert into Posts (Title, Resume, Category) " +
-                    "values (@title, @resume, @category)";
+        public IList<Post> FilterForCategory(string category)
+        {
+            using (BlogContext context = new BlogContext())
+            {
+                var list = context.Posts.Where(p => p.Category.Contains(category)).ToList();
+                return list;
+            }
+        }
 
-                // Send value for parameters 
-                command.Parameters.Add(new SqlParameter("title", post.Title));
-                command.Parameters.Add(new SqlParameter("resume", post.Resume));
-                command.Parameters.Add(new SqlParameter("category", post.Category));
+        public void DeletePost(int id)
+        {
+            using (BlogContext context = new BlogContext())
+            {
+                // Recovery post
+                var post = context.Posts.Find(id);
+                context.Posts.Remove(post);
+                context.SaveChanges();
+            }
+        }
 
-                // Exec command
-                command.ExecuteNonQuery();
+        public Post FindForId(int id)
+        {
+            using (BlogContext context = new BlogContext())
+            {
+                var post = context.Posts.Find(id);
+                return post;
+            }
+        }
+
+        public void UpdatePost(Post post)
+        {
+            using (BlogContext context = new BlogContext())
+            {
+                // Update post
+                context.Posts.Update(post);
+                context.SaveChanges();
             }
         }
     }

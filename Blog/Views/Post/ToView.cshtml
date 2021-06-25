@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Adicionar";
+}
+
+@model Blog.Models.Post
+
+<div class="container text-center">
+    <h1 class="display-6">Adicione um filme:</h1>
+</div>
+
+<form class="flex-column" action="/Post/EditPost/" method="post">
+
+    <input type="hidden" name="Id" value="@Model.Id" />
+
+    <div class="wrapper-input flex-column-left">
+        <label class="label-block">Título</label>
+        <input class="input-block" name="Title" value="@Model.Title"/>
+    </div>
+
+    <div class="wrapper-input flex-column-left">
+        <label class="label-block">Resumo</label>
+        <input class="input-block" name="Resume" value="@Model.Resume"/>
+    </div>
+
+    <div class="wrapper-input flex-column-left">
+        <label class="label-block">Categoria</label>
+        <input class="input-block" name="Category" value="@Model.Category"/>
+    </div>
+
+    <div class="wrapper-button flex-column-left">
+        <button class="button--medium" type="submit">Atualizar</button>
+    </div>
+</form>

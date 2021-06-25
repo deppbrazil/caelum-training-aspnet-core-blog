@@ -2,28 +2,28 @@
     ViewData["Title"] = "Adicionar";
 }
 
-<div class="container">
-    <h1 class="display-4">Adicione um filme:</h1>
+<div class="container text-center">
+    <h1 class="display-6">Adicione um filme:</h1>
 </div>
 
-<form class="flex-column" action="/Post/AddItemList" method="post">
+<form class="flex-column" action="/Post/Form/" method="post">
 
     <div class="wrapper-input flex-column-left">
-        <label class="label-block">Title</label>
+        <label class="label-block">Título</label>
         <input class="input-block" name="Title" />
     </div>
 
     <div class="wrapper-input flex-column-left">
-        <label class="label-block">Resume</label>
+        <label class="label-block">Resumo</label>
         <input class="input-block" name="Resume" />
     </div>
 
     <div class="wrapper-input flex-column-left">
-        <label class="label-block">Category</label>
+        <label class="label-block">Categoria</label>
         <input class="input-block" name="Category" />
     </div>
 
     <div class="wrapper-button flex-column-left">
-        <button class="button--medium" type="submit">Send</button>
+        <button class="button--medium" type="submit">Salvar</button>
     </div>
 </form>

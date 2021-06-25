@@ -5,8 +5,8 @@
 @model List<Post>
 
 <section class="container-fluid">
-    <div class="container">
-        <h1 class="display-4">Lista de filmes:</h1>
+    <div class="container text-center">
+        <h1 class="display-6">Lista de filmes:</h1>
     </div>
 
     <div class="container mt-4">
@@ -17,7 +17,9 @@
                 <p class="text-md-start">@post.Resume</p>
                 <div class="wrapper-disclaimer">
                     <span class="disclaimer">@post.Category</span>
-                </div>
+                    <a href="/Post/ToView/@post.Id">Editar</a>
+                    <a href="/Post/DeletePost/@post.Id">Remover</a>
+                </div>                
             </div>
         }
     </div>
