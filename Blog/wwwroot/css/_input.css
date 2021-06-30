@@ -1,13 +1,23 @@
-﻿.input-block {
+﻿.input-block,
+.input-textArea {
     width: 100%;
-    height: 40px;
     outline: 0;
+    padding: 5px 15px;
     border-radius: 5px;
     border: 2px solid var(--dark);
     transition: .2s border ease-in-out;
 }
 
-.input-block:focus {
+.input-block {
+    height: 40px;
+}
+
+.input-textArea {
+    height: 160px;
+}
+
+.input-block:focus,
+.input-textArea:focus {
     border: 2px solid var(--primary);
 }
 
