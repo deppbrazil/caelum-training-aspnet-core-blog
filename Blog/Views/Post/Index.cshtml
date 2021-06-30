@@ -19,7 +19,19 @@
                     <span class="disclaimer">@post.Category</span>
                     <a href="/Post/ToView/@post.Id">Editar</a>
                     <a href="/Post/DeletePost/@post.Id">Remover</a>
-                </div>                
+                    <a href="/Post/StatusPost/@post.Id">Publicar</a>
+                </div>
+                <div>
+                    <label>Publicado:</label>
+                    @if (post.Publicated == true)
+                    { 
+                        @Html.Raw(string.Format("{0:dd/MM/yyyy}", post.PublicationDate))
+                    }
+                    else
+                    {
+                        @Html.Raw("Não")
+                    }
+                </div>
             </div>
         }
     </div>

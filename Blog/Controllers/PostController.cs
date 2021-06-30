@@ -67,5 +67,12 @@ namespace Blog.Controllers
             dao.UpdatePost(post);
             return RedirectToAction("Index");
         }
+
+        public IActionResult StatusPost(int id)
+        {
+            PostDAO dao = new PostDAO();
+            dao.DateAndIdPost(id);
+            return RedirectToAction("Index");
+        }
     }
 }

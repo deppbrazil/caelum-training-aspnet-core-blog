@@ -13,6 +13,7 @@ C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\n
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\Mir\MyLife\Courses\FormacaoDOTNET\ASPNet-Entity\Caelum\Blog\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll

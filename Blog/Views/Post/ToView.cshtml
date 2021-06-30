@@ -2,14 +2,13 @@
     ViewData["Title"] = "Adicionar";
 }
 
-@model Blog.Models.Post
+@model Post
 
 <div class="container text-center">
     <h1 class="display-6">Adicione um filme:</h1>
 </div>
 
 <form class="flex-column" action="/Post/EditPost/" method="post">
-
     <input type="hidden" name="Id" value="@Model.Id" />
 
     <div class="wrapper-input flex-column-left">

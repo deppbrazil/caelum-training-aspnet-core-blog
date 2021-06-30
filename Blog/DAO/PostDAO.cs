@@ -68,5 +68,17 @@ namespace Blog.DAO
                 context.SaveChanges();
             }
         }
+
+        // Active bool active/inactive and input date in Post
+        internal void DateAndIdPost(int id)
+        {
+            using (BlogContext context = new BlogContext())
+            {
+                Post post = context.Posts.Find(id);
+                post.Publicated = true;
+                post.PublicationDate = DateTime.Now;
+                context.SaveChanges();
+            }
+        }
     }
 }

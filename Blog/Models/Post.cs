@@ -11,5 +11,7 @@ namespace Blog.Models
         public string Title { get; set; }
         public string Resume { get; set; }
         public string Category { get; set; }
+        public DateTime? PublicationDate { get; set; }
+        public bool Publicated { get; set; }
     }
 }
