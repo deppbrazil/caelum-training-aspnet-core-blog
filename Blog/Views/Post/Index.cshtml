@@ -4,22 +4,20 @@
 
 @model List<Post>
 
-<section class="container-fluid">
-    <div class="container text-center">
-        <h1 class="display-6">Lista de filmes:</h1>
-    </div>
+<section class="blog-contaiener">
+    
+    <h1 class="">Lista de filmes:</h1>
 
-    <div class="container mt-4">
         @foreach (var post in Model)
         {
-            <div class="text-left">
-                <h2 class="display-6">@post.Title</h2>
-                <p class="text-md-start">@post.Resume</p>
-                <div class="wrapper-disclaimer">
-                    <span class="disclaimer">@post.Category</span>
-                    <a href="/Post/ToView/@post.Id">Editar</a>
-                    <a href="/Post/DeletePost/@post.Id">Remover</a>
-                    <a href="/Post/StatusPost/@post.Id">Publicar</a>
+            <div class="post-container">
+                <h2 class="">@post.Title</h2>
+                <span class="disclaimer">@post.Category</span>
+                <p class="">@post.Resume</p>
+                <div class="blog-button-options flex-row-right">                    
+                    <a class="flex-row" href="/Post/ToView/@post.Id">Editar</a>
+                    <a class="flex-row" href="/Post/DeletePost/@post.Id">Remover</a>
+                    <a class="flex-row" href="/Post/StatusPost/@post.Id">Publicar</a>
                 </div>
                 <div>
                     <label>Publicado:</label>
@@ -34,5 +32,5 @@
                 </div>
             </div>
         }
-    </div>
+
 </section>
