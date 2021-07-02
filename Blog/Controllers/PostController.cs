@@ -26,17 +26,25 @@ namespace Blog.Controllers
 
         // Domain/Post/Form
         [HttpGet]
-        public IActionResult Form(Post post)
+        public IActionResult Form()
         {
-            return View();
+            Post post = new Post();
+            return View(post);
         }
 
         [HttpPost]
         public IActionResult AddItemList(Post post)
-        {
-            PostDAO dao = new PostDAO();
-            dao.AddPost(post);
-            return RedirectToAction("Index");
+        {   
+            if (ModelState.IsValid)
+            {
+                PostDAO dao = new PostDAO();
+                dao.AddPost(post);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View("Form", post);
+            }
         }
 
         public IActionResult CategoryFilter([Bind(Prefix = "id")] string category)
@@ -62,10 +70,17 @@ namespace Blog.Controllers
 
         [HttpPost]
         public IActionResult EditPost(Post post)
-        {
-            PostDAO dao = new PostDAO();
-            dao.UpdatePost(post);
-            return RedirectToAction("Index");
+        {   
+            if (ModelState.IsValid)
+            {
+                PostDAO dao = new PostDAO();
+                dao.UpdatePost(post);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View("ToView", post);
+            }
         }
 
         public IActionResult StatusPost(int id)

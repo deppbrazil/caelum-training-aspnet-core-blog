@@ -11,16 +11,19 @@
     <div class="wrapper-input flex-column-left">
         <label class="label-block">Título</label>
         <input class="input-block" name="Title" />
+        @Html.ValidationMessage("Title")
     </div>
 
     <div class="wrapper-input flex-column-left">
         <label class="label-block">Resumo</label>
         <textarea class="input-textArea" name="Resume"></textarea>
+        @Html.ValidationMessage("Resume")
     </div>
 
     <div class="wrapper-input flex-column-left">
         <label class="label-block">Categoria</label>
         <input class="input-block" name="Category" />
+        @Html.ValidationMessage("Category")
     </div>
 
     <div class="wrapper-button flex-column-left">

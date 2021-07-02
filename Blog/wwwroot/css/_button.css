@@ -20,18 +20,20 @@
 }
 
 .blog-button-options a {
-    width: 60px;
-    height: 20px;
+    width: 80px;
+    height: auto;
     font-size: .8em;
+    line-height: 23px;
     border-radius: 5px;
     margin: 0 5px;
+    border: 1px solid transparent;
     color: var(--light);
     background: var(--primary);
     transition: .2s all ease-in-out;
 }
 
 .blog-button-options a:hover {
+    border: 1px solid var(--primary);
     color: var(--primary);
     background: var(--light);
-    border: 1px solid var(--primary);
 }
